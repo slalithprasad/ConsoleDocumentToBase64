@@ -26,11 +26,17 @@ A simple **C#** console-based application that converts any document to Base64 f
    ```sh
    git clone https://github.com/yourusername/ConsoleDocumentToBase64.git
    ```
-2. Navigate to the project folder:
+
+2. Install the required NuGet packages:  
+    ```bash
+    dotnet restore
+    ```
+
+3. Navigate to the project folder:
    ```sh
    cd ConsoleDocumentToBase64
    ```
-3. Build and run the application:
+4. Build and run the application:
    ```sh
    dotnet run
    ```
@@ -58,6 +64,8 @@ A simple **C#** console-based application that converts any document to Base64 f
 
 ## Clipboard Integration
 The output is automatically copied to the clipboard so you can paste it directly.
+
+All credits to https://github.com/CopyText/TextCopy
 
 ---
 
