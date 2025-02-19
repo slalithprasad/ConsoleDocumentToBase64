@@ -65,7 +65,7 @@ A simple **C#** console-based application that converts any document to Base64 f
 ## Clipboard Integration
 The output is automatically copied to the clipboard so you can paste it directly.
 
-All credits to https://github.com/CopyText/TextCopy
+All credits to [TextCopy](https://github.com/CopyText/TextCopy)
 
 ---
 
