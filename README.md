@@ -24,7 +24,7 @@ A simple **C#** console-based application that converts any document to Base64 f
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/ConsoleDocumentToBase64.git
+   git clone https://github.com/slalithprasad/ConsoleDocumentToBase64.git
    ```
 
 2. Install the required NuGet packages:  
