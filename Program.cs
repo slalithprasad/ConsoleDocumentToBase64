@@ -67,6 +67,8 @@ string output = choice switch
 ClipboardService.SetText(output);
 Console.WriteLine("\nOutput is copied to clipboard! Use Ctrl+V or Cmd+V to paste it.");
 
+Console.ReadLine();
+
 string GetMimeType(string filePath)
 {
     string extension = Path.GetExtension(filePath).ToLower();
